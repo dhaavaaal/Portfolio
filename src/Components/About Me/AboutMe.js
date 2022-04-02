@@ -1,5 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
+import userimage from "../../Images/user.jpeg";
+import SocialMediaIcons from "../../Sidebar/SocialMediaIcons";
 
 const AboutMe = () => {
   return (
@@ -34,19 +36,15 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-12">
-            <div className="medium_divider clearfix"></div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-4 col-md-12">
+        <div className="row"></div>
+        <div className="row skills-info-container">
+          <div className="col-lg-4 col-md-12 ">
             <div
               className="about_img2 animation"
               data-animation="fadeInUp"
               data-animation-delay="0.02s"
             >
-              <img src="assets/images/about_img2.jpg" alt="about_img" />
+              <img src={userimage} alt="About-img" className="about-image" />
             </div>
           </div>
           <div className="col-lg-8 col-md-12">
@@ -56,153 +54,81 @@ const AboutMe = () => {
               data-animation-delay="0.02s"
             >
               <div className="row">
-                <div className="col-md-6">
-                  <div className="heading_s1 mb-4">
-                    <h5>Basic Info</h5>
+                <div className="col-md-6 basic-info-container">
+                  <div className="heading_s1 mb-4 basic-info-heading">
+                    <h4>Basic Info</h4>
                   </div>
-                  <ul className="profile_info_style2 list_none">
+                  <ul className="profile_info_style2 list_none list-items">
                     <li>
-                      <span className="title">Date of birth:</span>
-                      <p>20 August 1990</p>
+                      <span className="basic-info">Date of birth:</span>
+                      <p className="basic-info-description">20 August 1990</p>
                     </li>
                     <li>
-                      <span className="title">Phone No:</span>
-                      <p>+ (123) 1512-578</p>
+                      <span className="basic-info">Phone No:</span>
+                      <p className="basic-info-description">+ (123) 1512-578</p>
                     </li>
                     <li>
-                      <span className="title">Email:</span>
-                      <a href="mailto:info@sitename.com">mymail@gmail.com</a>
-                    </li>
-                    <li>
-                      <span className="title">Address:</span>
-                      <p> 123 Street, Old Trafford, London </p>
-                    </li>
-                    <li>
-                      <span className="title">Website:</span>
-                      <p> www.mywebsite.com </p>
-                    </li>
-                    <li>
-                      <span className="title">Freelance:</span>
-                      <p>Available</p>
-                    </li>
-                  </ul>
-                  <ul className="list_none social_icons rounded_social mt-3">
-                    <li>
-                      <a href="#" className="sc_facebook">
-                        <i className="ion-social-facebook"></i>
+                      <span className="basic-info">Email:</span>
+                      <a
+                        href="mailto:info@sitename.com"
+                        className="basic-info-description"
+                      >
+                        mymail@gmail.com
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="sc_twitter">
-                        <i className="ion-social-twitter"></i>
-                      </a>
+                      <span className="basic-info">Address:</span>
+                      <p className="basic-info-description">
+                        {" "}
+                        123 Street, Old Trafford, London{" "}
+                      </p>
                     </li>
                     <li>
-                      <a href="#" className="sc_google">
-                        <i className="ion-social-googleplus"></i>
-                      </a>
+                      <span className="basic-info">Freelance:</span>
+                      <p className="basic-info-description">Available</p>
                     </li>
-                    <li>
-                      <a href="#" className="sc_youtube">
-                        <i className="ion-social-youtube-outline"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="sc_instagram">
-                        <i className="ion-social-instagram-outline"></i>
-                      </a>
-                    </li>
+                    <SocialMediaIcons />
                   </ul>
                 </div>
-                <div className="col-md-6">
-                  <div className="heading_s1 mb-4">
-                    <h5>My Skills</h5>
+                <div className="col-md-6 basic-info-container">
+                  <div className="heading_s1 mb-4 basic-info-heading">
+                    <h4>My Skills</h4>
                   </div>
-                  <div className="skills">
-                    <div className="skill_content pr_style1">
-                      <div className="progrees_bar_text">
-                        <b>UX/UI Design</b>
+                  <div className="skills-items">
+                    <div className="skills">
+                      <div className="skills-title">
+                        <p>UI/UX Design</p>
+                        <p>60%</p>
                       </div>
-                      <div className="progress">
-                        <div className="count_pr">
-                          <span className="counter">80</span>%
-                        </div>
-                        <div
-                          className="progress-bar d-block"
-                          role="progressbar"
-                          aria-valuenow="80"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
+                      <meter value={0.6}></meter>
                     </div>
-                    <div className="skill_content pr_style1">
-                      <div className="progrees_bar_text">
-                        <b>Development</b>
+                    <div className="skills">
+                      <div className="skills-title">
+                        <p>Development</p>
+                        <p>80%</p>
                       </div>
-                      <div className="progress">
-                        <div className="count_pr">
-                          <span className="counter">90</span>%
-                        </div>
-                        <div
-                          className="progress-bar d-block"
-                          role="progressbar"
-                          aria-valuenow="90"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
+                      <meter value={0.8}></meter>
                     </div>
-                    <div className="skill_content pr_style1">
-                      <div className="progrees_bar_text">
-                        <b>Photography</b>
+                    <div className="skills">
+                      <div className="skills-title">
+                        <p>Photography</p>
+                        <p>90%</p>
                       </div>
-                      <div className="progress pr_style1">
-                        <div className="count_pr">
-                          <span className="counter">70</span>%
-                        </div>
-                        <div
-                          className="progress-bar d-block"
-                          role="progressbar"
-                          aria-valuenow="70"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
+                      <meter value={0.9}></meter>
                     </div>
-                    <div className="skill_content pr_style1">
-                      <div className="progrees_bar_text">
-                        <b>Marketing</b>
+                    <div className="skills">
+                      <div className="skills-title">
+                        <p>Marketing</p>
+                        <p>85%</p>
                       </div>
-                      <div className="progress">
-                        <div className="count_pr">
-                          <span className="counter">75</span>%
-                        </div>
-                        <div
-                          className="progress-bar d-block"
-                          role="progressbar"
-                          aria-valuenow="75"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
+                      <meter value={0.85}></meter>
                     </div>
-                    <div className="skill_content pr_style1">
-                      <div className="progrees_bar_text">
-                        <b>Bussiness Strategy</b>
+                    <div className="skills">
+                      <div className="skills-title">
+                        <p>Business Strategy</p>
+                        <p>75%</p>
                       </div>
-                      <div className="progress">
-                        <div className="count_pr">
-                          <span className="counter">80</span>%
-                        </div>
-                        <div
-                          className="progress-bar d-block"
-                          role="progressbar"
-                          aria-valuenow="80"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
+                      <meter value={0.75}></meter>
                     </div>
                   </div>
                 </div>
