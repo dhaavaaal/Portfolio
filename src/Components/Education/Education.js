@@ -1,12 +1,13 @@
 import React from "react";
+import "./Education.css";
 
 const Education = () => {
   return (
     <div>
-      <section id="services" className="bg_black2">
+      <section id="services" className="bg_black2 abcd">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-7 col-md-9 text-center">
+            <div className="col-xl-6 col-lg-7 col-md-9 text-center aaa">
               <div
                 className="heading_s1 heading_light animation text-center"
                 data-animation="fadeInUp"

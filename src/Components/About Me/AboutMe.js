@@ -1,16 +1,17 @@
 import React from "react";
+import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
     <div>
-      <section id="about" className="bg_black4">
+      <section id="about" className="bg-dark abcd">
         <div className="container">
           <div
             className="row align-items-center animation"
             data-animation="fadeInUp"
             data-animation-delay="0.02s"
           >
-            <div classNameName="col-md-8">
+            <div className="col-md-8">
               <div className="heading_s1 heading_light">
                 <h2>About Me</h2>
               </div>
@@ -212,7 +213,6 @@ const AboutMe = () => {
           </div>
         </div>
       </section>
-      ;
     </div>
   );
 };

@@ -14,7 +14,7 @@ import ContactMe from "./Components/Contact Me/ContactMe";
 function App() {
   return (
     <div className="App">
-      <SideBar />
+      {/* <SideBar /> */}
       {/* <Container /> */}
       <Home />
       <AboutMe />
