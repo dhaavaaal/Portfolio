@@ -23,8 +23,6 @@ function App() {
       <Projects />
       <Testimonials />
       <ContactMe />
-
-      {/* <PermanentDrawerLeft /> */}
     </div>
   );
 }

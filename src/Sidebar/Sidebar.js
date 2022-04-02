@@ -5,7 +5,6 @@ import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import { ListItemButton } from "@mui/material";
 
@@ -17,8 +16,6 @@ export default function SideBar() {
       <Drawer
         className={styles["side-bar"]}
         sx={{
-          backgroundColor: "blue !important",
-          // backgroundColor: "black",
           width: "300px",
           flexShrink: 0,
           "& .MuiDrawer-paper": {
@@ -62,12 +59,6 @@ export default function SideBar() {
             </ListItemButton>
           ))}
         </List>
-        {/* <li>
-          <a class="nav-link active page-scroll" href="#home_section">
-            Home
-          </a>
-        </li> */}
-        {/* <SocialMediaIcons /> */}
       </Drawer>
     </div>
     //
