@@ -1,12 +1,12 @@
 import "./App.css";
-import PermanentDrawerLeft from "./Home/eg";
-import Home from "./Home/Home";
-import SideBar from "./Home/Sidebar";
+import PermanentDrawerLeft from "./Components/Home/eg";
+import Home from "./Components/Home/Home";
+import SideBar from "./Components/Home/Sidebar";
 
 function App() {
   return (
     <div className="App">
-      {/* <SideBar /> */}
+      <SideBar />
       <Home />
       {/* <PermanentDrawerLeft /> */}
     </div>
