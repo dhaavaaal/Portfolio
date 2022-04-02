@@ -1,0 +1,11 @@
+.abcd {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  background-color: #24263c;
+}
+.aaa {
+  display: contents;
+}

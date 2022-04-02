@@ -3,12 +3,12 @@ import React from "react";
 const ContactMe = () => {
   return (
     <div>
-      <section id="contact" class="bg_black2">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-7 col-md-9 text-center">
+      <section id="contact" className="bg_black2">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-6 col-lg-7 col-md-9 text-center">
               <div
-                class="heading_s1 heading_light animation"
+                className="heading_s1 heading_light animation"
                 data-animation="fadeInUp"
                 data-animation-delay="0.02s"
               >
@@ -17,102 +17,102 @@ const ContactMe = () => {
             </div>
           </div>
           <div
-            class="row align-items-center animation"
+            className="row align-items-center animation"
             data-animation="fadeInUp"
             data-animation-delay="0.04s"
           >
-            <div class="col-md-4 text-center">
-              <div class="icon_box icon_box_style_2 box_dark text_white radius_box_10">
-                <div class="box_icon mb-3">
-                  <i class="ti-location-pin"></i>
+            <div className="col-md-4 text-center">
+              <div className="icon_box icon_box_style_2 box_dark text_white radius_box_10">
+                <div className="box_icon mb-3">
+                  <i className="ti-location-pin"></i>
                 </div>
-                <div class="icon_box_content">
-                  <h5 class="text-uppercase py-md-2">Address</h5>
+                <div className="icon_box_content">
+                  <h5 className="text-uppercase py-md-2">Address</h5>
                   <p>123 Street, New South London , UK</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 text-center">
-              <div class="icon_box icon_box_style_2 box_dark text_white radius_box_10">
-                <div class="box_icon mb-3">
-                  <i class="ti-mobile"></i>
+            <div className="col-md-4 text-center">
+              <div className="icon_box icon_box_style_2 box_dark text_white radius_box_10">
+                <div className="box_icon mb-3">
+                  <i className="ti-mobile"></i>
                 </div>
-                <div class="icon_box_content">
-                  <h5 class="text-uppercase py-md-2">Phone</h5>
+                <div className="icon_box_content">
+                  <h5 className="text-uppercase py-md-2">Phone</h5>
                   <p>123-456-7890</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 text-center">
-              <div class="icon_box icon_box_style_2 box_dark text_white radius_box_10">
-                <div class="box_icon mb-3">
-                  <i class="ti-email"></i>
+            <div className="col-md-4 text-center">
+              <div className="icon_box icon_box_style_2 box_dark text_white radius_box_10">
+                <div className="box_icon mb-3">
+                  <i className="ti-email"></i>
                 </div>
-                <div class="icon_box_content">
-                  <h5 class="text-uppercase py-md-2">Email</h5>
+                <div className="icon_box_content">
+                  <h5 className="text-uppercase py-md-2">Email</h5>
                   <p>info@sitename.com</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-12">
-              <div class="medium_divider clearfix"></div>
+          <div className="row">
+            <div className="col-12">
+              <div className="medium_divider clearfix"></div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <div
-                class="field_form form_style2 rounded_input animation"
+                className="field_form form_style2 rounded_input animation"
                 data-animation="fadeInUp"
                 data-animation-delay="0.02s"
               >
                 <form method="post" name="enq">
-                  <div class="row">
-                    <div class="form-group col-12">
+                  <div className="row">
+                    <div className="form-group col-12">
                       <input
                         required="required"
                         placeholder="Enter Name *"
                         id="first-name"
-                        class="form-control"
+                        className="form-control"
                         name="name"
                         type="text"
                       />
                     </div>
-                    <div class="form-group col-12">
+                    <div className="form-group col-12">
                       <input
                         required="required"
                         placeholder="Enter Email *"
                         id="email"
-                        class="form-control"
+                        className="form-control"
                         name="email"
                         type="email"
                       />
                     </div>
-                    <div class="form-group col-12">
+                    <div className="form-group col-12">
                       <input
                         placeholder="Enter Subject"
                         id="subject"
-                        class="form-control"
+                        className="form-control"
                         name="subject"
                         type="text"
                       />
                     </div>
-                    <div class="form-group col-lg-12">
+                    <div className="form-group col-lg-12">
                       <textarea
                         required="required"
                         placeholder="Message *"
                         id="description"
-                        class="form-control"
+                        className="form-control"
                         name="message"
                         rows="5"
                       ></textarea>
                     </div>
-                    <div class="col-lg-12">
+                    <div className="col-lg-12">
                       <button
                         type="submit"
                         title="Submit Your Message!"
-                        class="btn btn-default btn-radius btn-aylen btn-block"
+                        className="btn btn-default btn-radius btn-aylen btn-block"
                         id="submitButton"
                         name="submit"
                         value="Submit"
@@ -120,16 +120,19 @@ const ContactMe = () => {
                         Submit
                       </button>
                     </div>
-                    <div class="col-lg-12 text-center">
-                      <div id="alert-msg" class="alert-msg text-center"></div>
+                    <div className="col-lg-12 text-center">
+                      <div
+                        id="alert-msg"
+                        className="alert-msg text-center"
+                      ></div>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <div
-                class="contact_map mt-4 mt-md-0 animation"
+                className="contact_map mt-4 mt-md-0 animation"
                 data-animation="fadeInUp"
                 data-animation-delay="0.02s"
               >
