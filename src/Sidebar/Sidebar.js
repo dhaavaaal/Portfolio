@@ -44,7 +44,7 @@ export default function SideBar() {
             "Projects",
             "Contact",
           ].map((text, index) => (
-            <ListItemButton component="a" href="#{text}" key={text}>
+            <ListItemButton component="a" href={`/${text}`} key={text}>
               <ListItemText primary={text} />
             </ListItemButton>
           ))}
@@ -57,7 +57,7 @@ export default function SideBar() {
             "{props.locaion}",
             <SocialMediaIcons />,
           ].map((text, index) => (
-            <ListItemButton component="a" href="#{text}" key={text}>
+            <ListItemButton component="a" href={`/${text}`} key={text}>
               <ListItemText primary={text} />
             </ListItemButton>
           ))}

@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Home.module.css";
 import user from "../../Images/user.jpeg";
 import Typical from "react-typical";
-import SideBar from "./Sidebar";
 
 const Home = () => {
   return (

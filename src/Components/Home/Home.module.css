@@ -46,7 +46,7 @@
   display: flex;
   position: relative;
   left: 2%;
-  letter-spacing: 1.1px;
+  /* letter-spacing: 1.1px; */
   /* justify-content: flex-start; */
   /* align-items: center; */
   flex-direction: column;

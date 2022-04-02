@@ -1,7 +1,6 @@
 import "./App.css";
-import PermanentDrawerLeft from "./Components/Home/eg";
 import Home from "./Components/Home/Home";
-import SideBar from "./Components/Home/Sidebar";
+import SideBar from "./Sidebar/Sidebar";
 
 function App() {
   return (
