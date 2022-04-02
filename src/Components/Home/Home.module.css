@@ -1,8 +1,8 @@
 .home-page-container {
   height: 100vh;
-  position: absolute;
+  /* position: absolute; */
   right: 0%;
-  width: calc(100% - 270px);
+  width: 100%;
   /* opacity: 0.5; */
   /* background: rgba(29, 32, 56, 0.5) url("../../Images/banner_img.jpg"); */
   background-image: url("../../Images/banner_img.jpg");
