@@ -1,8 +1,11 @@
-.abcd {
+.aboutme-container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
   right: 0;
-  /* background-color: black; */
+  background-color: #121833;
+}
+.aboutme-description {
 }
