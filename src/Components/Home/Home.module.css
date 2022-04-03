@@ -16,9 +16,9 @@
   bottom: 0;
   opacity: 0.9;
   background: #101227;
+  height: 100vh;
   /* position: relative;
   content: "";
-  height: 100vh;
   width: calc(100% - 270px);
   z-index: 2;
   background-color: rgba(29, 32, 56, 0.5); */

@@ -5,7 +5,7 @@ import SocialMediaIcons from "../../Sidebar/SocialMediaIcons";
 
 const AboutMe = () => {
   return (
-    <div id="about" className="bg-dark aboutme-container">
+    <div id="about" className="aboutme-container">
       <div className="container">
         <div
           className="row align-items-flex-start animation aboutme-description"
@@ -30,7 +30,7 @@ const AboutMe = () => {
           </div>
           <div className="col-md-4">
             <div className="text-md-right">
-              <a href="#" className="btn btn-default btn-radius btn-aylen">
+              <a href="#" className="btn btn-primary btn-radius">
                 Download CV
               </a>
             </div>
