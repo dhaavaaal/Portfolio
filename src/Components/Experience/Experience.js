@@ -6,10 +6,17 @@ const Experience = () => {
       <section
         id="experience"
         className="bg_black2"
-        style={{ backgroundColor: "#0C0E27", color: "white", padding: "3rem" }}
+        style={{
+          backgroundColor: "#0C0E27",
+          color: "white",
+          padding: "3rem",
+        }}
       >
         <div className="container text-center">
-          <div className="row d-flex justify-content-center">
+          <div
+            className="row"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <div className="col-xl-6 col-lg-7 col-md-9 text-center">
               <div
                 className="heading_s1 heading_light animation"
