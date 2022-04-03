@@ -3,9 +3,23 @@ import React from "react";
 const ContactMe = () => {
   return (
     <div>
-      <section id="contact" className="bg_black2">
+      <section
+        id="contact"
+        className="bg_black2"
+        style={{
+          height: "65vh",
+          backgroundColor: "#121833",
+          color: "#fff",
+        }}
+      >
         <div className="container">
-          <div className="row justify-content-center">
+          <div
+            className="row justify-content-center"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
             <div className="col-xl-6 col-lg-7 col-md-9 text-center">
               <div
                 className="heading_s1 heading_light animation"
@@ -20,9 +34,20 @@ const ContactMe = () => {
             className="row align-items-center animation"
             data-animation="fadeInUp"
             data-animation-delay="0.04s"
+            style={{
+              margin: "3rem",
+            }}
           >
             <div className="col-md-4 text-center">
-              <div className="icon_box icon_box_style_2 box_dark text_white radius_box_10">
+              <div
+                className="icon_box icon_box_style_2 box_dark text_white radius_box_10"
+                style={{
+                  backgroundColor: "#24263C",
+                  borderRadius: "10px",
+                  margin: "1rem",
+                  padding: "1rem",
+                }}
+              >
                 <div className="box_icon mb-3">
                   <i className="ti-location-pin"></i>
                 </div>
@@ -33,7 +58,15 @@ const ContactMe = () => {
               </div>
             </div>
             <div className="col-md-4 text-center">
-              <div className="icon_box icon_box_style_2 box_dark text_white radius_box_10">
+              <div
+                className="icon_box icon_box_style_2 box_dark text_white radius_box_10"
+                style={{
+                  backgroundColor: "#24263C",
+                  borderRadius: "10px",
+                  margin: "1rem",
+                  padding: "1rem",
+                }}
+              >
                 <div className="box_icon mb-3">
                   <i className="ti-mobile"></i>
                 </div>
@@ -44,7 +77,15 @@ const ContactMe = () => {
               </div>
             </div>
             <div className="col-md-4 text-center">
-              <div className="icon_box icon_box_style_2 box_dark text_white radius_box_10">
+              <div
+                className="icon_box icon_box_style_2 box_dark text_white radius_box_10"
+                style={{
+                  backgroundColor: "#24263C",
+                  borderRadius: "10px",
+                  margin: "1rem",
+                  padding: "1rem",
+                }}
+              >
                 <div className="box_icon mb-3">
                   <i className="ti-email"></i>
                 </div>
@@ -77,6 +118,11 @@ const ContactMe = () => {
                         className="form-control"
                         name="name"
                         type="text"
+                        style={{
+                          backgroundColor: "transparent",
+                          width: "580px",
+                          borderRadius: "20px",
+                        }}
                       />
                     </div>
                     <div className="form-group col-12">
@@ -87,6 +133,11 @@ const ContactMe = () => {
                         className="form-control"
                         name="email"
                         type="email"
+                        style={{
+                          backgroundColor: "transparent",
+                          width: "580px",
+                          borderRadius: "20px",
+                        }}
                       />
                     </div>
                     <div className="form-group col-12">
@@ -96,9 +147,14 @@ const ContactMe = () => {
                         className="form-control"
                         name="subject"
                         type="text"
+                        style={{
+                          backgroundColor: "transparent",
+                          width: "580px",
+                          borderRadius: "20px",
+                        }}
                       />
                     </div>
-                    <div className="form-group col-lg-12">
+                    <div className="form-group col-12">
                       <textarea
                         required="required"
                         placeholder="Message *"
@@ -106,16 +162,26 @@ const ContactMe = () => {
                         className="form-control"
                         name="message"
                         rows="5"
+                        style={{
+                          backgroundColor: "transparent",
+                          width: "580px",
+                          borderRadius: "20px",
+                        }}
                       ></textarea>
                     </div>
-                    <div className="col-lg-12">
+                    <div className=" form-group col-12">
                       <button
                         type="submit"
                         title="Submit Your Message!"
-                        className="btn btn-default btn-radius btn-aylen btn-block"
+                        className="btn btn-radius btn-aylen btn-block"
                         id="submitButton"
                         name="submit"
                         value="Submit"
+                        style={{
+                          backgroundColor: "#27E278",
+                          width: "580px",
+                          borderRadius: "20px",
+                        }}
                       >
                         Submit
                       </button>
@@ -137,8 +203,13 @@ const ContactMe = () => {
                 data-animation-delay="0.02s"
               >
                 <iframe
+                  title="geo-location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193229.77301255226!2d-74.05531241936525!3d40.823236500441624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f613438663b5%3A0xce20073c8862af08!2sW+123rd+St%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1533565007513"
                   allowfullscreen=""
+                  style={{
+                    height: "315px",
+                    width: "400px",
+                  }}
                 ></iframe>
               </div>
             </div>
