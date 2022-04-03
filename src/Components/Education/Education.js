@@ -4,7 +4,16 @@ import "./Education.css";
 const Education = () => {
   return (
     <div>
-      <section id="services" className="bg_black2 abcd">
+      <section
+        id="services"
+        className="bg_black2 abcd"
+        style={{
+          height: "60vh",
+          backgroundColor: "#0C0E27",
+          color: "white",
+          padding: "3rem",
+        }}
+      >
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-7 col-md-9 text-center aaa">
@@ -32,12 +41,21 @@ const Education = () => {
             data-animation-delay="0.04s"
           >
             <div className="col-lg-4 col-sm-6 text-center">
-              <div className="icon_box icon_box_style_3 radius_box_10 box_dark">
+              <div
+                className="icon_box icon_box_style_3 radius_box_10 box_dark"
+                style={{
+                  margin: "1rem",
+
+                  padding: "1rem",
+                  backgroundColor: "#24263c",
+                  borderRadius: "10px",
+                }}
+              >
                 <div className="box_icon mb-3">
                   <i className="ti-image"></i>
                 </div>
                 <div className="icon_box_content text_white">
-                  <h5>Graphic Design</h5>
+                  <h4>Graphic Design</h4>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration
@@ -46,12 +64,21 @@ const Education = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 text-center">
-              <div className="icon_box icon_box_style_3 radius_box_10 box_dark">
+              <div
+                className="icon_box icon_box_style_3 radius_box_10 box_dark"
+                style={{
+                  margin: "1rem",
+
+                  padding: "1rem",
+                  backgroundColor: "#24263c",
+                  borderRadius: "10px",
+                }}
+              >
                 <div className="box_icon mb-3">
                   <i className="ti-video-camera"></i>
                 </div>
                 <div className="icon_box_content text_white">
-                  <h5>Digital Marketing</h5>
+                  <h4>Digital Marketing</h4>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration
@@ -60,12 +87,21 @@ const Education = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 text-center">
-              <div className="icon_box icon_box_style_3 radius_box_10 box_dark">
+              <div
+                className="icon_box icon_box_style_3 radius_box_10 box_dark"
+                style={{
+                  margin: "1rem",
+
+                  padding: "1rem",
+                  backgroundColor: "#24263c",
+                  borderRadius: "10px",
+                }}
+              >
                 <div className="box_icon mb-3">
                   <i className="ti-crown"></i>
                 </div>
                 <div className="icon_box_content text_white">
-                  <h5>Branding</h5>
+                  <h4>Branding</h4>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration
@@ -74,12 +110,21 @@ const Education = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 text-center">
-              <div className="icon_box icon_box_style_3 radius_box_10 box_dark">
+              <div
+                className="icon_box icon_box_style_3 radius_box_10 box_dark"
+                style={{
+                  margin: "1rem",
+
+                  padding: "1rem",
+                  backgroundColor: "#24263c",
+                  borderRadius: "10px",
+                }}
+              >
                 <div className="box_icon mb-3">
                   <i className="ti-light-bulb"></i>
                 </div>
                 <div className="icon_box_content text_white">
-                  <h5>Development</h5>
+                  <h4>Development</h4>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration
@@ -88,12 +133,21 @@ const Education = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 text-center">
-              <div className="icon_box icon_box_style_3 radius_box_10 box_dark">
+              <div
+                className="icon_box icon_box_style_3 radius_box_10 box_dark"
+                style={{
+                  margin: "1rem",
+
+                  padding: "1rem",
+                  backgroundColor: "#24263c",
+                  borderRadius: "10px",
+                }}
+              >
                 <div className="box_icon mb-3">
                   <i className="ti-mobile"></i>
                 </div>
                 <div className="icon_box_content text_white">
-                  <h5>Mobile Application</h5>
+                  <h4>Mobile Application</h4>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration
@@ -102,12 +156,20 @@ const Education = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 text-center">
-              <div className="icon_box icon_box_style_3 radius_box_10 box_dark">
+              <div
+                className="icon_box icon_box_style_3 radius_box_10 box_dark"
+                style={{
+                  margin: "1rem",
+                  padding: "1rem",
+                  backgroundColor: "#24263c",
+                  borderRadius: "10px",
+                }}
+              >
                 <div className="box_icon mb-3">
                   <i className="ti-camera"></i>
                 </div>
                 <div className="icon_box_content text_white">
-                  <h5>Photography</h5>
+                  <h4>Photography</h4>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration
