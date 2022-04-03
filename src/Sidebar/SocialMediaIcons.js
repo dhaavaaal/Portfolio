@@ -7,11 +7,6 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-// import FacebookIcon from "@mui/icons-material/Facebook";
-// import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import GitHubIcon from "@mui/icons-material/GitHub";
-// import TwitterIcon from "@mui/icons-material/Twitter";
-// import { button } from "@mui/material";
 
 const SocialMediaIcons = () => {
   console.log("first");

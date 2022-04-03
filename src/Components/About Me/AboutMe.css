@@ -11,12 +11,16 @@
 .aboutme-description {
   position: relative;
   display: flex;
+  left: 2.5%;
   /* justify-content: unset; */
   align-items: center;
   text-align: initial;
-  padding: 10px px;
+  padding: 10px 0;
   margin: 5px;
   font-size: 17px;
+}
+.skills-items {
+  width: 90%;
 }
 .skills-info-container {
   margin: 20px 5px 5px;

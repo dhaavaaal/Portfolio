@@ -7,8 +7,8 @@ const ContactMe = () => {
         id="contact"
         className="bg_black2"
         style={{
-          height: "65vh",
-          backgroundColor: "#121833",
+          height: "75vh",
+          backgroundColor: "rgb(12, 14, 39)",
           color: "#fff",
         }}
       >
@@ -20,7 +20,10 @@ const ContactMe = () => {
               justifyContent: "center",
             }}
           >
-            <div className="col-xl-6 col-lg-7 col-md-9 text-center">
+            <div
+              className="col-xl-6 col-lg-7 col-md-9 text-center"
+              style={{ marginTop: "2%" }}
+            >
               <div
                 className="heading_s1 heading_light animation"
                 data-animation="fadeInUp"
@@ -109,7 +112,7 @@ const ContactMe = () => {
                 data-animation-delay="0.02s"
               >
                 <form method="post" name="enq">
-                  <div className="row">
+                  <div className="row contact-me">
                     <div className="form-group col-12">
                       <input
                         required="required"
@@ -119,9 +122,12 @@ const ContactMe = () => {
                         name="name"
                         type="text"
                         style={{
+                          border: "2px solid white",
                           backgroundColor: "transparent",
                           width: "580px",
+                          color: "white",
                           borderRadius: "20px",
+                          marginBottom: "15px",
                         }}
                       />
                     </div>
@@ -134,9 +140,11 @@ const ContactMe = () => {
                         name="email"
                         type="email"
                         style={{
+                          border: "2px solid white",
                           backgroundColor: "transparent",
                           width: "580px",
                           borderRadius: "20px",
+                          marginBottom: "15px",
                         }}
                       />
                     </div>
@@ -150,7 +158,10 @@ const ContactMe = () => {
                         style={{
                           backgroundColor: "transparent",
                           width: "580px",
+                          marginBottom: "15px",
                           borderRadius: "20px",
+                          border: "2px solid white",
+                          color: "white",
                         }}
                       />
                     </div>
@@ -165,6 +176,8 @@ const ContactMe = () => {
                         style={{
                           backgroundColor: "transparent",
                           width: "580px",
+                          border: "2px solid white",
+                          marginBottom: "15px",
                           borderRadius: "20px",
                         }}
                       ></textarea>
@@ -181,6 +194,8 @@ const ContactMe = () => {
                           backgroundColor: "#27E278",
                           width: "580px",
                           borderRadius: "20px",
+                          position: "relative",
+                          left: "-32px",
                         }}
                       >
                         Submit

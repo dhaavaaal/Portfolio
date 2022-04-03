@@ -4,8 +4,13 @@
   justify-content: center;
   align-items: center;
   right: 0;
-  background-color: #24263c;
+  /* background-color: #24263c; */
+  /* height: "70vh"; */
+  background-color: #0c0e27;
+  color: "white";
+  padding: "3rem";
 }
 .aaa {
-  display: contents;
+  display: flex;
+  flex-direction: column;
 }

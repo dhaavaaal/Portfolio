@@ -1,0 +1,9 @@
+.experience-card {
+  background-color: #292f47;
+  color: "white";
+  border-radius: 10px;
+  padding: 3rem;
+  margin: 1rem;
+  font-size: 16px;
+  text-align: left;
+}
