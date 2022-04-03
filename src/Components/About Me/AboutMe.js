@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
 import userimage from "../../Images/user.jpeg";
-import SocialMediaIcons from "../../Sidebar/SocialMediaIcons";
+import SocialMediaIcons from "../../SocialMediaIcons/SocialMediaIcons";
 
 const AboutMe = () => {
   return (
