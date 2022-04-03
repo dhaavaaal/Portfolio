@@ -6,7 +6,7 @@ const Experience = () => {
       <section
         id="experience"
         className="bg_black2"
-        style={{ backgroundColor: "#0C0E27", color: "white", padding: "3rem" }}
+        style={{ backgroundColor: "#121833", color: "white", padding: "3rem" }}
       >
         <div className="container text-center">
           <div
@@ -42,7 +42,7 @@ const Experience = () => {
                 <div
                   className="icon_box_content"
                   style={{
-                    backgroundColor: "#24263c",
+                    backgroundColor: "#292F47",
                     color: "white",
                     borderRadius: "10px",
                     padding: "3rem",
@@ -79,7 +79,7 @@ const Experience = () => {
                 <div
                   className="icon_box_content text_white"
                   style={{
-                    backgroundColor: "#24263c",
+                    backgroundColor: "#292F47",
                     color: "white",
                     borderRadius: "10px",
                     padding: "3rem",
@@ -116,7 +116,7 @@ const Experience = () => {
                 <div
                   className="icon_box_content text_white"
                   style={{
-                    backgroundColor: "#24263c",
+                    backgroundColor: "#292F47",
                     color: "white",
                     borderRadius: "10px",
                     padding: "3rem",
@@ -155,7 +155,7 @@ const Experience = () => {
                 <div
                   className="icon_box_content text_white"
                   style={{
-                    backgroundColor: "#24263c",
+                    backgroundColor: "#292F47",
                     color: "white",
                     borderRadius: "10px",
                     padding: "3rem",
@@ -192,7 +192,7 @@ const Experience = () => {
                 <div
                   className="icon_box_content text_white"
                   style={{
-                    backgroundColor: "#24263c",
+                    backgroundColor: "#292F47",
                     color: "white",
                     borderRadius: "10px",
                     padding: "3rem",
@@ -230,7 +230,7 @@ const Experience = () => {
                 <div
                   className="icon_box_content text_white"
                   style={{
-                    backgroundColor: "#24263c",
+                    backgroundColor: "#292F47",
                     color: "white",
                     borderRadius: "10px",
                     padding: "3rem",
