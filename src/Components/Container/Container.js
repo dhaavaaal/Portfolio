@@ -1,11 +1,11 @@
 import React from "react";
-import Home from "./Components/Home/Home";
-import AboutMe from "./Components/About Me/AboutMe";
-import Education from "./Components/Education/Education";
-import Projects from "./Components/Projects/Projects";
-import Experience from "./Components/Experience/Experience";
-import ContactMe from "./Components/Contact Me/ContactMe";
-import Testimonials from "./Components/Testimonials/Testimonials";
+import Home from "../Home/Home";
+import AboutMe from "../About Me/AboutMe";
+import Education from "../Education/Education";
+import Projects from "../Projects/Projects";
+import Experience from "../Experience/Experience";
+import ContactMe from "../Contact Me/ContactMe";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Container = () => {
   return (
